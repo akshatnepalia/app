@@ -32,9 +32,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="bg-gradient-to-br from-orange-500 to-orange-600 p-2 rounded-lg">
-                <span className="text-white font-bold text-lg">VIS</span>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_sharp-containers/artifacts/dha3es3z_image.png" 
+                alt="Vividh India Solutions Logo"
+                className="h-12 w-auto bg-white p-1 rounded"
+              />
               <div>
                 <h3 className="text-lg font-bold">Vividh India Solutions</h3>
                 <p className="text-xs text-slate-400">Since {companyInfo.established}</p>
