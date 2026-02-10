@@ -1,34 +1,83 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.App-header {
-    background-color: #0f0f10;
+.App {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    position: relative;
 }
 
-.App-link {
-    color: #61dafb;
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
 }
 
-@keyframes App-logo-spin {
+/* Safe area for mobile */
+.safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
     from {
-        transform: rotate(0deg);
+        opacity: 0;
+        transform: translateY(20px);
     }
     to {
-        transform: rotate(360deg);
+        opacity: 1;
+        transform: translateY(0);
     }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Button Hover Effects */
+button, .button-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover, .button-hover:hover {
+    transform: translateY(-2px);
+}
+
+button:active, .button-hover:active {
+    transform: translateY(0);
+}
+
+/* Card Hover Effects */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Transitions */
+img {
+    transition: transform 0.3s ease;
+}
+
+/* Link Transitions */
+a {
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Focus States - Accessibility */
+button:focus-visible, 
+input:focus-visible, 
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid #f97316;
+    outline-offset: 2px;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
 }
