@@ -27,8 +27,8 @@ Build a high-value, high-conversion professional B2B website for Vividh India So
 - **Business Type:** Sole Proprietorship - Wholesaler/Distributor
 - **GST:** 08ALSPR1706R1Z7 (Registered since July 1, 2017)
 - **Location:** 2-Ta-11, Jawahar Nagar, Jaipur-302004, Rajasthan, India
-- **Contact:** 8875355666
-- **Email:** himanshi1073@gmail.com
+- **Contact:** +91 8875355666
+- **Email:** vividhindiasolution@gmail.com
 - **Employees:** Up to 10 People
 
 ---
@@ -127,7 +127,7 @@ Build a high-value, high-conversion professional B2B website for Vividh India So
 
 2. **Email Integration**
    - Setup Resend API for email notifications
-   - Send enquiry emails to himanshi1073@gmail.com
+   - Send enquiry emails to vividhindiasolution@gmail.com
    - Email templates for enquiry confirmations
 
 ### P1 (Medium Priority):
@@ -232,12 +232,12 @@ This file contains:
 ### Email Service (Resend)
 - **Purpose:** Send enquiry notifications
 - **Required:** API Key from https://resend.com
-- **Recipient:** himanshi1073@gmail.com
+- **Recipient:** vividhindiasolution@gmail.com
 - **Status:** Playbook received, awaiting implementation
 
 ### WhatsApp Integration
 - **Type:** Simple click-to-chat (No API required)
-- **Number:** 8875355666
+- **Number:** +91 8875355666
 - **Status:** ✅ Implemented
 
 ---
