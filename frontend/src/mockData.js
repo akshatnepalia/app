@@ -5,9 +5,9 @@ export const companyInfo = {
   established: "2015",
   ceo: "Shirish Rawat",
   gst: "08ALSPR1706R1Z7",
-  phone: "8875355666",
-  whatsapp: "8875355666",
-  email: "himanshi1073@gmail.com",
+  phone: "+91 8875355666",
+  whatsapp: "918875355666",
+  email: "vividhindiasolution@gmail.com",
   address: "2-Ta-11, Jawahar Nagar, Jaipur-302004, Rajasthan, India",
   businessType: "Wholesaler/Distributor",
   employees: "Upto 10 People"
