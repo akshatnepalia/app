@@ -57,9 +57,11 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="bg-gradient-to-br from-orange-500 to-orange-600 p-2 rounded-lg">
-              <span className="text-white font-bold text-xl">VIS</span>
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_sharp-containers/artifacts/dha3es3z_image.png" 
+              alt="Vividh India Solutions Logo"
+              className="h-14 w-auto"
+            />
             <div>
               <h1 className="text-xl font-bold text-slate-800">Vividh India Solutions</h1>
               <p className="text-xs text-slate-600">Since {companyInfo.established}</p>
